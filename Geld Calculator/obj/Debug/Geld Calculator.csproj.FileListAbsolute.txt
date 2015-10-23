@@ -24,3 +24,4 @@ C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\Geld C
 C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Debug\Geld_Calculator.Form1.resources
 C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Debug\Geld_Calculator.Properties.Resources.resources
 C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Debug\Geld Calculator.csproj.GenerateResource.Cache
+C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Debug\Geld Calculator.csprojResolveAssemblyReference.cache
