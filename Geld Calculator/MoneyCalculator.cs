@@ -12,33 +12,30 @@ namespace Geld_Calculator
         double[] subTotals = new double[15];
         double[] multiplier = { 500, 200, 100, 50, 20, 10, 5, 2, 1,
                                    0.5, 0.2, 0.1, 0.05, 0.02, 0.01 };
-        string[] textBoxTexts;
-        string[] outputs;
-        double totaal;
+        string[] inputTexts = new string[15];
+        string[] outputTexts = new string[15];
+        double total;
 
-        public string[] calculate(string[] textBoxTexts)
+        public void calculate(string[] textBoxTexts)
         {
-            //this.textBoxTexts = textBoxTexts;
             readTextBoxes(textBoxTexts);
-            for (int i = 0; i < outputs.Length; i++)
+            for (int i = 0; i < outputTexts.Length; i++)
             {
-                outputs[i] = subTotals[i].ToString();
+                outputTexts[i] = formatMoney(subTotals[i]);
             }
-            return outputs;
+            calculateTotal();
         }
 
-
-
-        public void calculateTotal()
+        private void calculateTotal()
         {
-            totaal = 0;
+            total = 0;
             for (int i = 0; i < subTotals.Length; i++)
             {
-                totaal += subTotals[i];
+                total += subTotals[i];
             }
         }
 
-        public uint parseNumberPerType(string text)
+        private uint parseNumberPerType(string text)
         {
             uint number;
             if (text.Trim() == "")
@@ -60,11 +57,12 @@ namespace Geld_Calculator
             return number;
         }
 
-        public void readTextBoxes(string[] textBoxTexts)
+        private void readTextBoxes(string[] textBoxTexts)
         {
             for (int i = 0; i < textBoxTexts.Length; i++)
             {
                 uint parsedNumber = parseNumberPerType(textBoxTexts[i]);
+                numberPerMoneyType[i] = parsedNumber;
                 subTotals[i] = calculateSubTotal(numberPerMoneyType[i], multiplier[i]);
             }
         }
@@ -97,12 +95,12 @@ namespace Geld_Calculator
 
         public string[] getOutputs()
         {
-            return outputs;
+            return outputTexts;
         }
 
         public string getTotalOutput()
         {
-            return formatMoney(totaal);
+            return formatMoney(total);
         }
 
         public uint[] getNumberPerMoneyType()
@@ -113,6 +111,11 @@ namespace Geld_Calculator
         public double[] getSubTotals()
         {
             return this.subTotals;
+        }
+
+        public double getTotal()
+        {
+            return this.total;
         }
 
         public double[] getMultipliers()

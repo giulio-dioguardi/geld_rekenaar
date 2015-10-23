@@ -27,15 +27,11 @@ namespace Geld_Calculator
                                 label17, label19, label21, label23,
                                 label25,label27,label29,label31, label33,
                                 label35 };
-        }
-
-        
-
-        
+        }   
 
         private void button1_Click(object sender, EventArgs e)
         {
-            stringOutputs = calc.calculate(getTextBoxTexts());
+            calc.calculate(getTextBoxTexts());
             printToForm();
         }
 
