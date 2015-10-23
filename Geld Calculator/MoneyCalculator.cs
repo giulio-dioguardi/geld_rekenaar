@@ -18,12 +18,18 @@ namespace Geld_Calculator
 
         public void calculate(string[] textBoxTexts)
         {
-            readTextBoxes(textBoxTexts);
+            inputTexts = textBoxTexts;
+            readTextBoxes();
+            convertSubTotalToString();
+            calculateTotal();
+        }
+
+        private void convertSubTotalToString()
+        {
             for (int i = 0; i < outputTexts.Length; i++)
             {
                 outputTexts[i] = formatMoney(subTotals[i]);
             }
-            calculateTotal();
         }
 
         private void calculateTotal()
@@ -57,11 +63,11 @@ namespace Geld_Calculator
             return number;
         }
 
-        private void readTextBoxes(string[] textBoxTexts)
+        private void readTextBoxes()
         {
-            for (int i = 0; i < textBoxTexts.Length; i++)
+            for (int i = 0; i < inputTexts.Length; i++)
             {
-                uint parsedNumber = parseNumberPerType(textBoxTexts[i]);
+                uint parsedNumber = parseNumberPerType(inputTexts[i]);
                 numberPerMoneyType[i] = parsedNumber;
                 subTotals[i] = calculateSubTotal(numberPerMoneyType[i], multiplier[i]);
             }
