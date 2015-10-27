@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geld Calculator", "Geld Calculator\Geld Calculator.csproj", "{D418A69D-E58D-4137-8791-2CF2AE2D9763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeldCalculatorUnitTest", "GeldCalculatorUnitTest\GeldCalculatorUnitTest.csproj", "{80432F40-3137-4B18-91A1-9B266F474816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,12 @@ Global
 		{D418A69D-E58D-4137-8791-2CF2AE2D9763}.Final|Any CPU.Build.0 = Final|Any CPU
 		{D418A69D-E58D-4137-8791-2CF2AE2D9763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D418A69D-E58D-4137-8791-2CF2AE2D9763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80432F40-3137-4B18-91A1-9B266F474816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80432F40-3137-4B18-91A1-9B266F474816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80432F40-3137-4B18-91A1-9B266F474816}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{80432F40-3137-4B18-91A1-9B266F474816}.Final|Any CPU.Build.0 = Release|Any CPU
+		{80432F40-3137-4B18-91A1-9B266F474816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80432F40-3137-4B18-91A1-9B266F474816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
