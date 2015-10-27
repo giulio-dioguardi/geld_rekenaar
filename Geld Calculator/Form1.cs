@@ -66,11 +66,12 @@ namespace Geld_Calculator
             {
                 if (!char.IsNumber(tString[i]))
                 {
-                    MessageBox.Show("Voer alstublieft een geldig getal in.");
+                    MessageBox.Show("Voer alstublieft een geldig getal in.","Ongeldig teken.");
                     box.Text = "0";
                     return;
                 }
             }
+            box.Text = calc.parseNumberPerType(tString).ToString();
             //If it get's here it's a valid number
             button1.PerformClick();
         }

@@ -41,13 +41,12 @@ namespace Geld_Calculator
             }
         }
 
-        private uint parseNumberPerType(string text)
+        public uint parseNumberPerType(string text)
         {
             uint number;
             if (text.Trim() == "")
             {
                 number = 0;
-                text = "0";
             }
             else
             {
@@ -78,7 +77,7 @@ namespace Geld_Calculator
             return aantal * multiplier;
         }
 
-        private string formatMoney(double value)
+        public string formatMoney(double value)
         {
             value *= 100;
             value = Math.Round(value);
