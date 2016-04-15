@@ -1,7 +1,0 @@
-C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\GeldCalculatorUnitTest\bin\Debug\GeldCalculatorUnitTest.dll
-C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\GeldCalculatorUnitTest\bin\Debug\GeldCalculatorUnitTest.pdb
-C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\GeldCalculatorUnitTest\obj\Debug\GeldCalculatorUnitTest.csprojResolveAssemblyReference.cache
-C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\GeldCalculatorUnitTest\obj\Debug\GeldCalculatorUnitTest.dll
-C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\GeldCalculatorUnitTest\obj\Debug\GeldCalculatorUnitTest.pdb
-C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\GeldCalculatorUnitTest\bin\Debug\Geld Calculator.exe
-C:\Users\gdioguardi\Documents\Visual Studio 2013\Projects\Geld Calculator\GeldCalculatorUnitTest\bin\Debug\Geld Calculator.pdb
