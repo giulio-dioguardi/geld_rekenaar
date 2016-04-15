@@ -1,9 +1,0 @@
-C:\Users\Giulio\Dropbox\Programmeren\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\bin\Release\Geld Calculator.exe.config
-C:\Users\Giulio\Dropbox\Programmeren\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\bin\Release\Geld Calculator.exe
-C:\Users\Giulio\Dropbox\Programmeren\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\bin\Release\Geld Calculator.pdb
-C:\Users\Giulio\Dropbox\Programmeren\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Release\Geld_Calculator.Form1.resources
-C:\Users\Giulio\Dropbox\Programmeren\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Release\Geld_Calculator.Properties.Resources.resources
-C:\Users\Giulio\Dropbox\Programmeren\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Release\Geld Calculator.csproj.GenerateResource.Cache
-C:\Users\Giulio\Dropbox\Programmeren\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Release\Geld Calculator.exe
-C:\Users\Giulio\Dropbox\Programmeren\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Release\Geld Calculator.pdb
-C:\Users\Giulio\Dropbox\Programmeren\Visual Studio 2013\Projects\Geld Calculator\Geld Calculator\obj\Release\Geld Calculator.csprojResolveAssemblyReference.cache
